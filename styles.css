@@ -34,15 +34,16 @@ html, body {
 .nav a {
     display: inline-block;
     padding: .5em;
-    color: rgb(250, 246, 246);
+    color: rgba(4, 42, 71, 0.952);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .main-nav {
     text-align: center;
     font-size: 1.1em;
     font-weight: lighter;
-    border-bottom: 1px solid rgba(238, 240, 241, 0.966)
+    border-bottom: 1px solid rgba(252, 249, 249, 0.986)
 }
 
 .main-nav li {
@@ -50,12 +51,12 @@ html, body {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3)
+    background-color: rgba(255, 255, 255, 0.966)
 }
 
 .main-header {
-    background-color: rgba(49, 106, 160, 0.6);
-    background-image: url("Images/bg.png");
+    background-color: rgba(55, 185, 224, 0.6);
+    background-image: url("Images/bg1.png");
     background-size: cover;
     padding-bottom: 30px;
 }
@@ -66,7 +67,7 @@ html, body {
     font-size: 4em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
-    color: rgba(238, 242, 245, 0.952);
+    color: rgba(4, 42, 71, 0.952);
 }
 
 .name-large {
@@ -93,10 +94,10 @@ html, body {
 
 .main-footer {
     background-color: rgba(55, 185, 224, 0.6);
-    background-image: url("Images/bg1.png");
+    background-image: url("Images/bg.png");
     background-size: cover;
-    color: rgb(244, 245, 247);
-    padding: .25em 0;
+    color: rgb(3, 21, 56);
+    padding: .5em 0;
 }
 
 .main-footer-container {
@@ -128,7 +129,7 @@ html, body {
 
 .btn-header {
     margin: .5em 15% 2em 15%;
-    color: white;
+    color: rgba(4, 42, 71, 0.952);
     border: 2px solid #2D9CDB;
     background-color: rgba(255, 255, 255, .1);
     border-radius: 0;
@@ -139,7 +140,7 @@ html, body {
 }
 
 .btn-header:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: rgba(211, 211, 240, 0.925);
 }
 
 .btn-play {
@@ -152,10 +153,11 @@ html, body {
     height: 100px;
     padding: 0;
     text-align: center;
+    text-decoration: none;
 }
 
 .btn-primary {
-    color: white;
+    color: rgb(7, 7, 7);
     background-color: #56CCF2;
     border: none;
     border-radius: .3em;
