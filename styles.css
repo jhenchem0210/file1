@@ -91,6 +91,10 @@ html, body {
     font-size: 2.5em;
 }
 
+.image:hover{
+    transform:scale(5.0);
+    z-index:2;
+}
 
 .main-footer {
     background-color: rgba(55, 185, 224, 0.6);
@@ -218,6 +222,11 @@ html, body {
 
 .shop-item-image {
     height: 250px;
+}
+
+.shop-item-image:hover{
+    transform:scale(1.3);
+    z-index:2;
 }
 
 .shop-item-details {
