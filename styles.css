@@ -24,15 +24,16 @@ html, body {
 }
 
 .nav ul {
-    margin: 0;
+    margin: 15px;
 }
 
 .nav li {
-    display: inline;
-}
+    border-style: none;
+    transform:scale(1.20);
+    z-index:2;
+  }
 
 .nav a {
-    display: inline-block;
     padding: .5em;
     color: rgba(4, 42, 71, 0.952);
     text-decoration: none;
@@ -40,8 +41,7 @@ html, body {
 }
 
 .main-nav {
-    text-align: center;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: lighter;
     border-bottom: 1px solid rgba(252, 249, 249, 0.986)
 }
@@ -52,11 +52,12 @@ html, body {
 
 .nav a:hover {
     background-color: rgba(255, 255, 255, 0.966)
+
 }
 
 .main-header {
     background-color: rgba(55, 185, 224, 0.6);
-    background-image: url("Images/bg1.png");
+    background-image: url("Images/bg.png");
     background-size: cover;
     padding-bottom: 30px;
 }
@@ -64,14 +65,15 @@ html, body {
 .name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
+    font-size: 2em;
     font-family: "Booter - Zero Zero";
     font-weight: normal;
     color: rgba(4, 42, 71, 0.952);
 }
 
 .name-large {
-    font-size: 8em;
+    font-size: 6em;
+    margin-top: 40px;
 }
 
 .content-section {
@@ -89,11 +91,8 @@ html, body {
     color: #333;
     text-align: center;
     font-size: 2.5em;
-}
-
-.image:hover{
-    transform:scale(5.0);
-    z-index:2;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
 }
 
 .main-footer {
@@ -121,47 +120,30 @@ html, body {
 .footer-nav img {
     width: 30px;
     height: 30px;
+
 }
 
 .btn {
-    text-align: center;
     vertical-align: middle;
-    padding: .67em .67em;
-    cursor: pointer;
-    
-}
-
-.btn-header {
-    margin: .5em 15% 2em 15%;
-    color: rgba(4, 42, 71, 0.952);
-    border: 2px solid #2D9CDB;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 0;
-    font-size: 1.5em;
-    font-weight: lighter;
-    padding-left: 2em;
-    padding-right: 2em;
-}
-
-.btn-header:hover {
-    background-color: rgba(211, 211, 240, 0.925);
+    padding: .9em .9em;
+    cursor: pointer;  
+    text-decoration: none;
+    text-align:center;
 }
 
 .btn-play {
     display: block;
     margin: 0 auto;
-    color: #2D9CDB;
+    color: #cc0f0f;
     font-size: 4em;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     padding: 0;
-    text-align: center;
-    text-decoration: none;
 }
 
 .btn-primary {
-    color: rgb(7, 7, 7);
+    color: rgb(237, 239, 245);
     background-color: #56CCF2;
     border: none;
     border-radius: .3em;
@@ -184,30 +166,37 @@ html, body {
 
 .product-item {
     display: inline-block;
-    padding-right: .5em;
+    padding-right: 2.5em;
+    text-align: center;
 }
 
 .product-name {
     color: #555;
-    width: 11%;
+    width: 20%;
     font-weight: bold;
 }
 
 .product-des {
-    width: 24%;
+    width: 35%;
+    font-weight: bold;
 }
 
 .product-price {
-    width: 42%;
+    width: 24%;
+    font-weight: bold;
 }
 
+.image:hover{
+    transform:scale(5.0);
+    z-index:2;
+}
 .product-btn {
-    max-width: 19%;
-    text-decoration: none;
+    max-width: 25%;
 }
 
 .shop-item {
     margin: 30px;
+    font-weight: bold;
 }
 
 .shop-item-title {
