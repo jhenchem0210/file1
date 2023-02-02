@@ -336,3 +336,8 @@ html, body {
     margin: 40px auto 80px auto;
     font-size: 1.75em;
 }
+@media (max-width: 600px){
+    .name-large{
+        font-size: 3em;
+    }
+}
